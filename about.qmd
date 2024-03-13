@@ -7,34 +7,31 @@ sidebar: false
 
 # Education
 
--   B.S., ................................., ....................................University, Turkey, 20xx - 20xx.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
--   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Middle East Technical University, Turkey, 2013 - 2018.
+-   M.S., Industrial Engineering, Middle East Technical University, Turkey, 2019 - 2022.
+-   Ph.D.., Industrial Engineering, Hacettepe University, Turkey, 2023 - ongoing.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  Firm Optiyol, position Optimization Scientist, year 2021- ongoing.
 
-2.  Firm yyy, position yyy, year yyy
+2.  Firm Roketsan, position Supply Chain Planning Manager, year 2018-2021
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  Firm Aselsan, position Intern at Production Planning Department, year 2017
 
-2.  Firm bbb, position yyy, year yyy
+2.  Firm: Tusaş, position Co-op Intern at Capacity Planning Department, year 2016
 
 # Projects
 
-1.  TUBİTAK 1001..........................
-
-# Publications
-
-1.  Dasdemir, E., Batta, R., Koksalan, M., Tezcaner Ozturk, D. (2022) “UAV Routing for Reconnaissance Mission: A Multi-Objective Orienteering Problem with Time-Dependent Prizes and Multiple Connections”, Computers & Operations Research, 145: 105882.
+1.  Simulation of Propellant Casting Workshop
 
 # Competencies
 
 R, Quarto, Git, Python
 
 # Hobbies
+Basketball, Chess, Competitive Video Games

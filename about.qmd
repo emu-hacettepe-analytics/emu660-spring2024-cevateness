@@ -3,7 +3,7 @@ title: "About Me"
 sidebar: false 
 ---
 
-![](assets/images/github_photo.jpeg){fig-align="center"}
+![](assets/images/github_photo.jpg){fig-align="center"}
 
 # Education
 

@@ -17,7 +17,7 @@ sidebar: false
 
 1.  Firm Optiyol, position Optimization Scientist, year 2021- ongoing.
 
-2.  Firm Roketsan, position Supply Chain Planning Manager, year 2018-2021
+2.  Firm Roketsan, position Supply Chain Planning Engineer, year 2018-2021
 
 ## Internships
 
@@ -35,3 +35,7 @@ R, Quarto, Git, Python
 
 # Hobbies
 Basketball, Chess, Competitive Video Games
+
+# Resume
+
+[Resume_Cevat_Enes_Karaahmetoglu](Resume_Cevat-Enes-Karaahmetoğlu_.pdf){.download-button}

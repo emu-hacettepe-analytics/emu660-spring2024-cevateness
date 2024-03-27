@@ -4,12 +4,77 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
-My first assignment has two parts.
+My first assignment has three parts.
 
 ## (a)
+[Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Cem Vardar & Erdi Dasdemir](https://www.youtube.com/watch?v=Fi8-phj1X1A)
+
+Mr. Cem Vardar is an experienced Data Scientist with a focus on prescriptive analytics, optimization. He talks about problem solving, industrial engineering and current trends on data analytics. He also mentions about the data related roles and the problem types that should be handled in that role. He presents a study showing the desired qualities and charecteristics for data science roles. Lastly, as a experienced scientist, he shares some valuable suggestions and reading list and finishes with an interactive Q&A session. 
 
 ## (b)
+### Exploring Statistical Summaries of 'mtcars' dataset
+
+```{r}
+data(mtcars)
+# Define custom summary function
+custom_summary <- function(data) {
+  summary_list <- list(
+    mean = mean(data),
+    median = median(data),
+    sd = sd(data),
+    min = min(data),
+    max = max(data)
+  )
+  return(summary_list)
+}
+
+summary_mpg <- custom_summary(mtcars$mpg)
+print(summary_mpg)
+```
+
+```{r}
+# Iterate over numeric columns of mtcars dataset and apply custom summary function
+for (col in names(mtcars)) {
+  if (is.numeric(mtcars[[col]])) {
+    cat("Summary for column:", col, "\n")
+    print(custom_summary(mtcars[[col]]))
+    cat("\n")
+  }
+}
+```
+
+## (c)
+### Displaying and Manipulating the 'na_example' Dataset
+```{r}
+library(dslabs)
+data("na_example")
+print("Dataset with NA values:")
+print(na_example)
+```
+
+```{r}
+# Count total NA values in the dataset
+total_na <- sum(is.na(na_example))
+print(paste("Total NA values in the dataset:", total_na))
+```
+
+```{r}
+# Substitute NA values with 660
+na_example_filled <- na_example
+na_example_filled[is.na(na_example_filled)] <- 660
+
+# Display updated dataset without NA values
+print("Updated dataset without NA values:")
+print(na_example_filled)
+```
+
+```{r}
+# Count total NA values in the updated dataset (should be 0)
+new_total_na <- sum(is.na(na_example_filled))
+print(paste("New total NA values in the updated dataset:", new_total_na))
+```
+
+```{r}
+count_660 <- sum(na_example_filled == 660)
+print(paste("Total count of instances where the number 660 appears:", count_660))
+```

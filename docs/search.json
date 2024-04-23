@@ -18,7 +18,7 @@
     "href": "project.html#data-source",
     "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "2.1 Data Source",
-    "text": "2.1 Data Source\nThe data source is Türkiye İstatistik Kurumu (Turkish Statistical Institute - TÜİK) database.\nTo access the .RData file containing the dataset used in this analysis, please reach out to the dataset from following link.\nReach out for the .RData file"
+    "text": "2.1 Data Source\nThe data source is Türkiye İstatistik Kurumu (Turkish Statistical Institute - TÜİK) database.\nTo access the .RData folder containing the dataset used in this analysis, please reach out to the dataset from following link.\nReach out for the .RData folder"
   },
   {
     "objectID": "project.html#general-information-about-data",

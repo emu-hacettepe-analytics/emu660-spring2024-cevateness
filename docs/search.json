@@ -9,63 +9,63 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "",
-    "text": "Welcome to my project page.\nKeep an eye on this space to stay updated with my project activities.\n(The titles below are provided as examples; please feel free to adjust them as necessary.)"
+    "text": "Welcome to my project page.\nKeep an eye on this space to stay updated with my project activities."
   },
   {
     "objectID": "project.html#data-source",
     "href": "project.html#data-source",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "2.1 Data Source",
-    "text": "2.1 Data Source\nxxxxxx"
+    "text": "2.1 Data Source\nThe data source is Türkiye İstatistik Kurumu (Turkish Statistical Institute - TÜİK) database, which provides comprehensive and reliable statistical data for Turkey."
   },
   {
     "objectID": "project.html#general-information-about-data",
     "href": "project.html#general-information-about-data",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "2.2 General Information About Data",
-    "text": "2.2 General Information About Data\nxxxxxx"
+    "text": "2.2 General Information About Data\nSales Quantity: Total sales volume of products domestically and internationally within the reference year or preceding years. Enterprise Count: Number of enterprises providing information in the annual industrial product survey, including estimates for non-responding enterprises. Production Quantity: Total quantity of products manufactured within the reference year, irrespective of sales, stocking, or internal use. Production Value: Total value of products manufactured within the reference year, excluding sales, stocking, or internal use. Sales Value: Total sales value of products domestically and internationally within the reference year, including packaging costs but excluding VAT, excise duties, recycling packaging values, separately charged customer transport and delivery costs, customer discounts, payments for returned goods, and government subsidies. CPI: Annual rate of change of consumer price index numbers Distribution of R&D expenditures in financial and non-financial corporations by types of R&D: the percentage distribution of various types of R&D activities through the years. Gross domestic expenditure on R&D by sector and source of funds: the expenditure amount of sectors from the various funds through the years."
   },
   {
     "objectID": "project.html#reason-of-choice",
     "href": "project.html#reason-of-choice",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "2.3 Reason of Choice",
-    "text": "2.3 Reason of Choice\nxxxxxx"
+    "text": "2.3 Reason of Choice\nThese datasets were chosen to conduct a comprehensive analysis of the interplay between R&D investments, economic performance, and industrial production in Turkey’s manufacturing sector. By integrating data from various sources, this project aims to provide valuable insights into the drivers of industrial growth and innovation. It seeks to identify potential cause-and-effect relationships, questioning the significance of R&D for product development and its impact on production. Additionally, the study will explore how organizations adapt their R&D strategies in response to economic conditions."
   },
   {
     "objectID": "project.html#preprocessing",
     "href": "project.html#preprocessing",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "2.4 Preprocessing",
-    "text": "2.4 Preprocessing\nxxxxxx"
+    "text": "2.4 Preprocessing\nThe dataset retrieved from the database was initially stored in “.xlsx” format as tables, which required conversion into importable formats suitable for analysis. Subsequently, the dataset exhibited structured product codes with associated descriptions and unit measurements, organized hierarchically. Key preprocessing tasks involved:\nParsing and structuring the hierarchical product codes for meaningful analysis. Mapping product codes to their respective descriptions to facilitate interpretation. Ensuring uniformity in units across all product codes (e.g., standardizing to kilograms). Addressing duplicates, redundancies, and missing values within the dataset to ensure data integrity. Performing aggregation and summarization for broader product categories based on hierarchical relationships.\nThese preprocessing steps were essential to transform the dataset into a clean, structured format suitable for detailed analysis."
   },
   {
     "objectID": "project.html#exploratory-data-analysis",
     "href": "project.html#exploratory-data-analysis",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "3.1 Exploratory Data Analysis",
-    "text": "3.1 Exploratory Data Analysis\nxxxxxx"
+    "text": "3.1 Exploratory Data Analysis\nPotential analyses during EDA include:\nVisualizing trends in R&D expenditures over time and by sector Examining correlations between R&D investments, industrial production metrics, and consumer price levels Identifying key factors influencing variations in industrial product trends Clustering analysis to segment industries based on R&D spending and economic performance"
   },
   {
     "objectID": "project.html#trend-analysis",
     "href": "project.html#trend-analysis",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "3.2 Trend Analysis",
     "text": "3.2 Trend Analysis\nxxxxxx"
   },
   {
     "objectID": "project.html#model-fitting",
     "href": "project.html#model-fitting",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "3.3 Model Fitting",
     "text": "3.3 Model Fitting\nxxxxxx"
   },
   {
     "objectID": "project.html#results",
     "href": "project.html#results",
-    "title": "Project X",
+    "title": "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey",
     "section": "3.4 Results",
     "text": "3.4 Results\nxxxxxx"
   },

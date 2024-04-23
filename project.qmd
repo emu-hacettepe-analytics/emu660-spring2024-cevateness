@@ -1,36 +1,71 @@
 ---
-title: "Project X"
+title: "Project: Exploring CPI and R&D Impact on Industrial Production in Turkey "
 ---
 
 Welcome to my project page.
 
 Keep an eye on this space to stay updated with my project activities.
 
-(The titles below are provided as examples; please feel free to adjust them as necessary.)
 
 # 1. Project Overview and Scope
 
-xxxxxx
+This project aims to investigate the relationship between economic performance, Research & Development (R&D) investments, and industrial production in Turkey's manufacturing sector. By analyzing datasets related to R&D expenditures, economic indicators, and industrial product statistics, the goal is to understand how R&D activities influence industrial production and consumer behavior within the manufacturing industry.
 
 # 2. Data
 
-xxxxxx
+#### R&D Expenditures by Technology Level in Manufacturing:
+
+This dataset provides information on Research & Development (R&D) expenditures categorized by different technology levels within the manufacturing sector. It includes data on the amount of spending allocated to R&D activities based on technological sophistication.
+
+#### Distribution of R&D Expenditures by R&D Types in Financial and Non-Financial Companies:
+
+This dataset outlines how R&D expenditures are distributed across various types of R&D activities (e.g., basic research, applied research, experimental development) within both financial and non-financial companies. It provides insights into the focus of R&D types.
+
+#### R&D Expenditures by Sector and Funding Source:
+
+This dataset categorizes R&D expenditures based on industrial sectors (e.g., manufacturing, services) and the sources of funding (e.g., government, private sector). It allows for the analysis of R&D investment patterns across different sectors and funding channels.
+
+#### Annual Statistics of Industrial Products:
+
+The bundle of datasets includes key statistics related to industrial products, such as sales value, sales quantity, production value, production quantity, and the number of enterprises operating within various industrial sectors. These statistics provide insights into the performance and trends of the manufacturing industry.
+
+#### Consumer Price Index (CPI) Data:
+
+The CPI dataset tracks changes in consumer prices over time, serving as an important economic indicator. It reflects inflation trends and consumer purchasing power, which can be analyzed in relation to industrial production and R&D investments.
 
 ## 2.1 Data Source
 
-xxxxxx
+The data source is Türkiye İstatistik Kurumu (Turkish Statistical Institute - TÜİK) database, which provides comprehensive and reliable statistical data for Turkey.
+
 
 ## 2.2 General Information About Data
 
-xxxxxx
+Sales Quantity: Total sales volume of products domestically and internationally within the reference year or preceding years.
+Enterprise Count: Number of enterprises providing information in the annual industrial product survey, including estimates for non-responding enterprises.
+Production Quantity: Total quantity of products manufactured within the reference year, irrespective of sales, stocking, or internal use.
+Production Value: Total value of products manufactured within the reference year, excluding sales, stocking, or internal use.
+Sales Value: Total sales value of products domestically and internationally within the reference year, including packaging costs but excluding VAT, excise duties, recycling packaging values, separately charged customer transport and delivery costs, customer discounts, payments for returned goods, and government subsidies.
+CPI: Annual rate of change of consumer price index numbers 
+Distribution of R&D expenditures in financial and non-financial corporations by types of R&D: the percentage distribution of various types of R&D activities through the years.
+Gross domestic expenditure on R&D by sector and source of funds: the expenditure amount of sectors from the various funds through the years.
+
 
 ## 2.3 Reason of Choice
 
-xxxxxx
+These datasets were chosen to conduct a comprehensive analysis of the interplay between R&D investments, economic performance, and industrial production in Turkey's manufacturing sector. By integrating data from various sources, this project aims to provide valuable insights into the drivers of industrial growth and innovation. It seeks to identify potential cause-and-effect relationships, questioning the significance of R&D for product development and its impact on production. Additionally, the study will explore how organizations adapt their R&D strategies in response to economic conditions. 
 
 ## 2.4 Preprocessing
 
-xxxxxx
+The dataset retrieved from the database was initially stored in ".xlsx" format as tables, which required conversion into importable formats suitable for analysis. Subsequently, the dataset exhibited structured product codes with associated descriptions and unit measurements, organized hierarchically. Key preprocessing tasks involved:
+
+Parsing and structuring the hierarchical product codes for meaningful analysis.
+Mapping product codes to their respective descriptions to facilitate interpretation.
+Ensuring uniformity in units across all product codes (e.g., standardizing to kilograms).
+Addressing duplicates, redundancies, and missing values within the dataset to ensure data integrity.
+Performing aggregation and summarization for broader product categories based on hierarchical relationships.
+
+
+These preprocessing steps were essential to transform the dataset into a clean, structured format suitable for detailed analysis.
 
 # 3. Analysis
 
@@ -38,7 +73,12 @@ xxxxxx
 
 ## 3.1 Exploratory Data Analysis
 
-xxxxxx
+Potential analyses during EDA include:
+
+Visualizing trends in R&D expenditures over time and by sector
+Examining correlations between R&D investments, industrial production metrics, and consumer price levels
+Identifying key factors influencing variations in industrial product trends
+Clustering analysis to segment industries based on R&D spending and economic performance
 
 ## 3.2 Trend Analysis
 

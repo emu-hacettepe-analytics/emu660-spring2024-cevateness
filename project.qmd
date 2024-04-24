@@ -83,7 +83,7 @@ Addressing duplicates, redundancies, and missing values within the dataset to en
 Performing aggregation and summarization for broader product categories based on hierarchical relationships.
 
 
-These preprocessing steps were essential to transform the dataset into a clean, structured format suitable for detailed analysis.
+These preprocessing steps were essential to transform the dataset into a clean and structured format suitable for detailed analysis.
 
 # 3. Analysis
 

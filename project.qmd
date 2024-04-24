@@ -37,9 +37,9 @@ The CPI dataset tracks changes in consumer prices over time, serving as an impor
 
 The data source is Türkiye İstatistik Kurumu (Turkish Statistical Institute - TÜİK) database.
 
-To access the `.RData` folder containing the dataset used in this analysis, please reach out to the dataset from following link. 
+To access the folder containing the `.RData` files used in this analysis, please reach out to the dataset from following link. 
 
-[Reach out for the .RData folder](https://github.com/emu-hacettepe-analytics/emu660-spring2024-cevateness/blob/main/dataset)
+[Reach out to the .RData files](https://github.com/emu-hacettepe-analytics/emu660-spring2024-cevateness/blob/main/dataset)
 
 
 ## 2.2 General Information About Data
